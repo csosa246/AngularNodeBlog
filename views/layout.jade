@@ -1,0 +1,29 @@
+!!!
+html(ng-app="myApp")
+    head
+        base(href='/')
+        title My Node Site
+        link(rel='stylesheet', href='/stylesheets/style1.css')
+    header
+        nav
+          ul
+            li
+              a(href="/home") Home
+            li
+              a(href="/blog") Blog
+            li
+              a(href="/contact") Contact
+    block body
+    section#wrapper
+      block content
+      footer
+        section.css-table
+          section.four-column
+            section.cell
+              p There's always money <br /> in the banana stand <br />!!!!!!
+            section.cell
+              p I hear the jury <br />is still out on science <br />
+            section.cell
+              p I LOVE NODE <br /> JS <br /> It's really good!
+            section.cell
+              p Apache web servers <br />Ain't nobody got time for that.<br />
